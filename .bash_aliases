@@ -7,6 +7,10 @@ alias lsl='ls -lh '
 #Programs
 alias r=ranger
 alias nati='nautilus . & '
+alias p3='python3 '
+
+#Python
+alias make_venv='python3 -m venv env '
 
 #GIT
 alias gatus='git status '
