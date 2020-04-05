@@ -8,6 +8,7 @@ alias lsl='ls -lh '
 alias r=ranger
 alias nati='nautilus . & '
 alias p3='python3 '
+alias ff='firefox'
 
 #Python
 alias make_venv='python3 -m venv env '
