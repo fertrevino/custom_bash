@@ -25,3 +25,5 @@ alias install_pycharm='sudo snap install pycharm-community --classic'
 
 export ANDROID_SDK=/home/fernando/Android/Sdk/emulator
 export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
+
+alias prune_docker='docker rm -vf $(docker ps -a -q) && docker rmi -f $(docker images -a -q)'
